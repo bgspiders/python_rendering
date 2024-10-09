@@ -1,0 +1,5 @@
+DrissionPage==4.1.0.7
+loguru==0.7.2
+redis==5.1.1
+Requests==2.32.3
+sanic==24.6.0
