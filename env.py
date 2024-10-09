@@ -9,8 +9,8 @@
 @Date    ：9/10/2024 上午9:48 
 '''
 ################redis配置############################
-REDIS_HOST='192.168.188.7'
-REDIS_PASSWORD='redis_CwHA7H'
+REDIS_HOST='127.0.0.1'
+REDIS_PASSWORD=''
 REDIS_PORT='6379'
 REDIS_DB='1'
 REDIS_TTL=300
