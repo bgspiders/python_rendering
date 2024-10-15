@@ -64,6 +64,7 @@ def init_page():
                 for ip in ip_list.keys():
                     _config=ip_list[ip]
                     co = ChromiumOptions()
+                    co.add_extension('extension')
                     co.no_imgs(True)
                     _ip=poll()
                     co.set_user_data_path(f'{ip_list[_ip]["usr_path"]}')
